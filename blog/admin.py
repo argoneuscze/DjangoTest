@@ -1,3 +1,5 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Squad, User, Article, Comment
+
+admin.site.register((Squad, User, Article, Comment))
